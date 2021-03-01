@@ -1,0 +1,5 @@
+['John', 'Human', 'Male']
+ ['Apple', 'Sword', 'Rope']
+ Easy 5
+ 2
+ 4

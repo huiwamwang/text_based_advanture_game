@@ -1,0 +1,6 @@
+Few issues:
+1. Lives in the test set to 5. It isn't clear at all from the task itself. If I set up other number of lives, it fail test 'check_char'.
+2. Quitting the game - task stating, we need to print another question y/n to double check quitting the game, however test checks for 'goodbye!' in the input before user input y/n. 
+
+Stage 4
+Test file checks for particular format for writing the save file, and if I don't fallow the format, I fail the test. For example, lives count should be in the same line as difficulty level. Also, I can't use different separators - test file reads line by line, so I guess it will be easier, if this information is stated in the task.
