@@ -39,6 +39,7 @@ class Game:
             elif user_input == '2' or user_input == 'load':
                 for f in listdir('saves'):
                     print(f[:-4])
+                print("Type your username")
                 self.user_name = input()
                 with open(f"saves/{self.user_name}.txt") as g:
                     game = g.readlines()
